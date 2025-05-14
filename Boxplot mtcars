@@ -1,0 +1,4 @@
+data(mtcars)
+head(mtcars)
+summary(mtcars)
+boxplot(mpg~cyl)
