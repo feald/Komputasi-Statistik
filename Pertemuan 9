@@ -1,3 +1,7 @@
 x <- seq(1, 5)
 y <- rep(3, 5)
 z <- x + y
+
+a <- rt(1000)
+qqnorm(a)
+qqline(a)
